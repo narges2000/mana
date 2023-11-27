@@ -6,6 +6,46 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <script>
+ //even numbers
+for(x=0 ; x<=100 ; x+=1){
+if(x%2==0){
+    console.log(x + '=> even')
+}
+else{
+    console.log(x + '=>odd')
+}
+}
+
+let i=100;
+while(i>=1){
+    console.log(i);
+    i-=3;
+}
+
+
+//rectangleArea
+function rectangleArea(l , w){
+    return(l*w);
+}
+console.log(rectangleArea(3,4));
+
+//rectanglePerimeter
+function rectanglePerimeter(l , w){
+    return(2*(l+w));
+}
+console.log(rectanglePerimeter(3,4));
+
+//max
+var arr=[20 , 50 , 335, 91, 67];
+let max=arr[0];
+for(let y=1 ; y<5 ; y++){
+    if (arr[y]>max){
+        max=arr[y];
+    }
+}
+console.log(max);
+
+</script>
 </body>
 </html>
